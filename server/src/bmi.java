@@ -52,8 +52,8 @@ class Bmi {
 
 class MyBmi {
     public static void main(String[] args) {
-        Bmi kawanishi = new Bmi();
-        kawanishi.setMyProfile();
-        kawanishi.printMyProfile();
+        Bmi person = new Bmi();
+        person.setMyProfile();
+        person.printMyProfile();
     }
 }
