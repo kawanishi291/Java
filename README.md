@@ -27,3 +27,12 @@ javaファイルをコンパイル
 実行
 :/usr/src# java (実行するクラス名)
 ```
+
+```
+sampleフォルダー内のjavaファイルをコンパイル
+:/usr/src# cd sample
+:/usr/src/sample# javac (コンパイルするファイル名).java
+
+sampleフォルダー内のクラスを実行
+:/usr/src# java sample.L11
+```
