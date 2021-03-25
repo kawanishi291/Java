@@ -7,6 +7,7 @@
   * sample/L2802.java
   * sample/L29.java
   * sample/L30.java
+  * sample/L31.java
 
 ## 2021/03/24
 * .java
