@@ -1,5 +1,12 @@
 # Java自主学習
 
+## 2021/03/26
+* .java
+  * sample/L36.java
+  * sample/L37.java
+  * sample/L38.java
+  * sample/L39.java
+
 ## 2021/03/25
 * .java
   * ChildHeight.java
