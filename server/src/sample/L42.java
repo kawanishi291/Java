@@ -14,10 +14,10 @@ class BankAccount {
     int balance; //残高
     
     void setBalance (int price){
-        balance = price;
+        this.balance = price;
     }
     void withdrawBalance (int price){
-        if((balance - price) > 0) {
+        if((this.balance - price) > 0) {
             balance -= price;
             System.out.println("残高は：" + balance + "円です。");
         } else 
