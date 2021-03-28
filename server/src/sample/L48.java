@@ -10,12 +10,12 @@ class SuperPerson {
     }
 }
 
-class SubStudents extends SuperPerson {
+class SubStudents extends SuperPerson { //継承
     String className;
 
     void outPerson() {
 
-        super.outPerson();
+        super.outPerson(); //親クラスのメソッドをそのまま使用
         System.out.println("クラス：" + this.className);
     }
 }
