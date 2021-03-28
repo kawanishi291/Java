@@ -14,7 +14,6 @@ abstract class MemberInfo { //抽象クラス
 class DispClass extends MemberInfo { //継承
     @Override
     void infoDisp() {
-        // TODO Auto-generated method stub
         System.out.println("名前：" + name);
         System.out.println("区分：" + div);
     }
