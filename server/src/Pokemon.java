@@ -36,6 +36,21 @@ class Pokemon {
     }
 }
 
+class Pikachu extends Pokemon {
+
+    void SetInfo() {
+        super.name = "ピカチュウ";
+        super.type1 = "でんき";
+    }
+
+    void Setstatus(int l, int hp, int atk, int def, int agl) {
+        super.Setstatus(l, hp, atk, def, agl);
+    }
+    void Print(){
+        super.Print();
+    }
+}
+
 class MyPokemon {
     public static void main(String[] args) {
         Pokemon monster1 = new Pokemon();
@@ -49,5 +64,10 @@ class MyPokemon {
         monster2.Settype("むし", "はがね");
         monster2.Setstatus(31, 97, 56, 38, 49);
         monster2.Print();
+
+        Pikachu pikachu1 = new Pikachu();
+        pikachu1.SetInfo();
+        pikachu1.Setstatus(20, 61, 17, 17, 26);
+        pikachu1.Print();
     }
 }
